@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: rgb(185, 0, 43);
+    display: flex;
+    height: 105px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    /* border: thin solid black; */
+    flex: 10%;
+    background: url(img/ICONE\ EMBER.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 69px;
+    margin-left: 5%;
+    margin-top: 2px;
+}
+
+#nomeLogo{
+    color: white;
+    margin-left: 40%;
+    margin-top: 1%;
+    font-size: 35px;
+    font-weight: 100;
+    font-family: 'Lobster';
+    padding: 10px;
+}
+
+.pesquisa{
+    margin-left: 10%;
+    flex: 40%;
+    /* border: thin solid black; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.searchBar{
+    border: none;
+    border-radius: 8px;
+    width: 80%;
+    padding: 7px;
+}
+
+#searchButton{
+    border-radius: 8px;
+    padding: 7px;
+    width: 10%;
+    background-color: white;
+    border: none;
+    
+}
+
+
+.menu{
+    flex: 30%;
+    /* border: thin solid black; */
+    text-align: right;
+    margin-right: 5%;
+    padding: 1%;
+    font-size: 17px;
+    
+}
+.menu a{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 7px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.menu a:hover{
+    color: rgb(255, 199, 95);
+    border-bottom: thin solid orange;
+}
+
+
+#iconePerfil{
+    border-radius: 5px;
+    color: rgb(185, 0, 43);
+    background-color: white;
+    padding: 1%;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left:4%;
+
+}
+
+#iconePerfil:hover{
+    background-color: rgb(215, 215, 215);
+    color: black;
+    border-bottom: thin solid rgb(255, 255, 255);
+}
+
+.secaoMeio{
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    height: 500px;
+    padding-top: 2%;
+    padding-left: 8%;
+    
+}
+.containerMain{
+    border-radius: 10px;
+    background-color: rgb(185, 0, 43);
+    height: 93%;
+    width: 90%;
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    align-items: center;
+}
+
+.contLeft{
+    flex: 25%;
+    height: 100%;
+    width: 10%;
+    background-image: url(img/over\ branca.jpg);
+    background-size: contain;
+    border: 18px solid rgb(185, 0, 43);;
+}
+.contMid{
+    border-radius: 5px;
+    flex: 25%;
+    height: 100%;
+    width: 10%;
+    background-image: url(img/over\ preta.jpg);
+    background-size: cover;
+    
+    border: 18px solid rgb(185, 0, 43);;
+}
+.contRight{
+    flex: 25%;
+    height: 100%;
+    width: 10%;
+    background-image: url(img/over\ cinza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 18px solid rgb(185, 0, 43);;
+}
+
+.contEnd{
+    flex: 25%;
+    height: 100%;
+    width: 10%;
+    background-image: url(img/over\ roxa.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 18px solid rgb(185, 0, 43);;
+}
+
+.botoesMeio{
+    background-color: rgb(255, 215, 224);;
+    margin-top: 104%;
+    height: 70px;
+    width: 100%;
+    border: none;
+
+}
+
+.botoesMeio:hover{
+    background-color: rgb(227, 227, 227);
+    border-bottom: 5px solid orange;
+}
+
+.textBut{
+    color: rgb(185, 0, 43);;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Bebas Neue';
+
+}
+
+.footer{
+    height: 100px;
+    background-color: black;
+}
+
+.underSection{
+    width: 100%;
+    height: 50px;
+    background-color:  rgb(185, 0, 43);;
+}
+
+#botaoEmber{
+    text-decoration: none;
+    color: white;
+}
+
+#botaoBuscar{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
