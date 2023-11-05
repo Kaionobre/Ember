@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&family=Open+Sans:wght@300;400;600&family=Poppins:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+body{
+    color: #1e1c2a;
+    background: #660000;
+}
+
+main{
+    display: flex;
+    padding: 4% 350px;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding-left: 163px;
+    padding-top: 12px;
+}
+.loginBloco {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 89px;
+    margin-left: 468px;
+    padding-left: 168px 63px;
+    width: 168px;
+    height: 63px;
+    border-radius: 10px;
+    background-color: #660000;
+    color: #ffffff;
+}
+.login {
+    padding-left: 43px;
+}
+.container{
+    position: absolute;
+    width: 1103px;
+    height: 663px;
+    background-color: #FFDBC7;
+    border-radius: 50px;
+
+}
