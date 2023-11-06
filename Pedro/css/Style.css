@@ -24,6 +24,11 @@ header{
     align-items: center;
     padding-left: 163px;
     padding-top: 12px;
+
+}
+#ember {
+    padding-left: 15px;
+    color: #FFFFFF;
 }
 .loginBloco {
     position: absolute;
@@ -48,4 +53,58 @@ header{
     background-color: #FFDBC7;
     border-radius: 50px;
 
+}
+.email{
+    padding-left: 340px;
+}
+#email{
+    height: 37px;
+    width: 424px;
+    padding-left: 8px;
+    border-radius: 50px;
+    background-color: #FFDBC7;
+    font-size: 16px;
+}
+.senha  {
+    padding-left: 340px;
+    border-radius: 50px;
+}
+#senha {
+    height: 37px;
+    width: 424px;
+    padding-left: 8px;
+    border-radius: 50px;
+    background-color: #FFDBC7;
+    font-size: 16px;
+    border-color: #8B8787 ;
+}
+.tituloemail{
+    padding-left: 340px;
+    padding-top: 238px;
+}
+.titulosenha  {
+    padding-left: 340px;
+    padding-top: 21px;
+}
+.manterconect{
+    padding-left: 340px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.checkboxconect{
+    padding-left: 345px;
+}
+.esqueceusenha {
+    padding-left: 320px;
+    font-size: 16px;
+    color: #00A3FF;
+}
+#botao{
+    margin-left: 183px;
+    width: 131px;
+    height: 68px;
+    border-radius: 10px;
+    background-color: #00A3FF;
+    border-color: #00A3FF;
+    color: #FFFFFF;
 }
