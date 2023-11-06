@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&family=Open+Sans:wght@300;400;600&family=Poppins:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Open+Sans:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans','Lobster', sans-serif;
     list-style: none;
     text-decoration: none;
     font-weight: 600;
@@ -29,6 +30,7 @@ header{
 #ember {
     padding-left: 15px;
     color: #FFFFFF;
+    font-family: 'Lobster';
 }
 .loginBloco {
     position: absolute;
@@ -64,6 +66,7 @@ header{
     border-radius: 50px;
     background-color: #FFDBC7;
     font-size: 16px;
+    border-style:double;
 }
 .senha  {
     padding-left: 340px;
@@ -76,7 +79,7 @@ header{
     border-radius: 50px;
     background-color: #FFDBC7;
     font-size: 16px;
-    border-color: #8B8787 ;
+    border-style:double;
 }
 .tituloemail{
     padding-left: 340px;
