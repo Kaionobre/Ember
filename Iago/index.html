@@ -4,8 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    
+    <header class="grid grid-template-columns-1">
+        <div>
+            <a href="#"><img src="img/ICONE EMBER.png" id="btnbusca" alt="Buscar"/></a>
+            <h1 id="titulo_logo">Ember</h1>
+        </div>
+        <div class="search-container">
+            <div id="busca">
+                <input type="text" id="txtbusca" placeholder="Buscar Produto..."/>
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        <a href="#"><i class="fa-regular fa-heart"></i></a>
+        <a href="#"><i class="fa-solid fa-gear" id="settings"></i></a>
+        <a href="#"><img src="img/Avatar.png" alt="Foto de perfil" class="foto_de_perfil"></a>
+    </header>
+    <main>
+        <section class="promocao_de_ofertas">
+            <h1 id="oferta_promocional">3 Camisas <br> por R&dollar; 220 </br> </h1>
+            <hr id="linha_separacao">
+            <div id="promocoes">
+                <img src="img/camisa01.png" alt="Camisa Promocional" id="camisa01">
+            </div>
+                <div id="promo">
+                    <img src="img/camisa_do_meio.png" alt="Camisa Promocional" id="camisa_central">
+                </div>
+                <div id="promoc">
+                    <img src="img/camisa_da_direita.png" alt="Camisa Promocional" id="camisa_direita">
+                </div>
+        </section>
+        
+    </main>
+        <div class="grid grid_columns">
+            <div class="Oversized">
+                <a href="#"><img src="img/oversized_mostruario.png" alt="Camisa de Mostruario" class="oversized_mostruario"></a>
+            </div>
+            <div class="Estampas">
+                <a href="#"><img src="img/estampa.png" alt="Foto de Estampas" class="foto_estampas"></a>
+            </div>
+            <div class="Moletom">
+                <a href="#"><img src="img/moletom.png" alt="Oferta de Moletom" class="foto_de_moletom"></a>
+            </div>
+            <div class="Outros">
+                <a href="#"><img src="img/caneca_anuncio.png" alt="Outros Itens Personalizados" class="itens_variados"></a>
+            </div>
+            <div id="titulo_oversized">
+                <a href="#">
+                    <h1 class="titulo_oversized">Oversized</h1>
+                </a>
+            </div>
+            <div id="titulo_estampas">
+                <a href="">
+                    <h1 class="titulo_estampas">Estampas</h1>
+                </a>       </div>
+            <div id="titulo_moletom">
+                <a href="">
+                    <h1 class="titulo_moletom">Moletom</h1>
+                </a>     </div>
+            <div id="titulo_outros">
+                <a href="">
+                    <h1 class="titulo_outros">Outros</h1>
+                </a>   </div>
+        </div>
+    <footer>
+    </footer>
 </body>
 </html>
