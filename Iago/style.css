@@ -9,8 +9,6 @@
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Open+Sans:wght@700&display=swap');
-
 
 body {
     margin: 0;
@@ -18,7 +16,6 @@ body {
     overflow-y: hidden;
 }
 
-/* Grid */
 .grid {
 	display: grid;
     background-color: #660000;
@@ -26,7 +23,6 @@ body {
     z-index: 0;
 }
 
-/* 100px é o valor total, ignora conteúdo, margem e etc. Respeita apenas o min-width do item.*/
 .grid-template-columns-1 {
 	grid-template-columns: minmax(10%, 1fr) 1fr 1fr;
     padding: 20px;
