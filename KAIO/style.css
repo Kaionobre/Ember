@@ -1,0 +1,61 @@
+body{
+    background-color: #660000;
+}
+
+main{
+    background-color: #FFDBC7;
+}
+
+footer{
+    background-color: green;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+#iconeEmber{
+    width: 3%;
+    height: 3%;
+}
+
+.fotosCamisa{
+    display: flex;
+    justify-content: center;
+
+}
+
+#fotoFreela{
+    border-radius: 50%;
+    display: block;
+    margin: 0px;
+    position: relative;
+    height: 60px;
+    width: 60px;
+    text-align: right;
+}
+
+.nomesPessoas{
+    padding-bottom: 10%;
+}
+
+.imagens{
+    border-radius: 50%;
+    display: block;
+    margin: 0px;
+    position: relative;
+    height: 50px;
+    width: 50px;
+}
+
+.pessoas{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.nomesPessoas{
+    font-size: 100%;
+}
