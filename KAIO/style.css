@@ -1,13 +1,21 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
 body{
     background-color: #660000;
+    height: 100vh;
+    box-sizing: border-box;
 }
 
 main{
     background-color: #FFDBC7;
 }
 
-footer{
-    background-color: green;
+header{
+    background-color: 660000;
+    padding: 10px;
 }
 
 .menu{
@@ -28,7 +36,6 @@ footer{
 
 #fotoFreela{
     border-radius: 50%;
-    display: block;
     margin: 0px;
     position: relative;
     height: 60px;
@@ -40,22 +47,36 @@ footer{
     padding-bottom: 10%;
 }
 
+
 .imagens{
-    border-radius: 50%;
-    display: block;
-    margin: 0px;
-    position: relative;
-    height: 50px;
-    width: 50px;
+    display: flex;
+    height: 20rem;
+    width: 20rem;
 }
+
 
 .pessoas{
     display: flex;
-    padding-left: 5%;
-    padding-right: 5%;
-
+    justify-content: center;
 }
 
-.nomesPessoas{
-    font-size: 100%;
+.elementos-de-foto{
+    flex: auto;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nome-texto{
+    flex-direction: column-reverse;
+}
+
+h1{
+    font-size: 1rem;
+}
+
+button{
+    color: aliceblue;
+    border-radius: 50%;
+    background-color: #660000;
 }
