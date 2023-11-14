@@ -13,7 +13,7 @@ body{
 }
 
 .navbar{
-    background-color: #990033;
+    background-color: #660000;
     display: flex;
     height: 105px;
     flex-flow: row wrap;
@@ -88,13 +88,13 @@ body{
 }
 
 .menu a:hover{
-    color: rgb(255, 199, 95);
+    color: orange;
     border-bottom: thin solid orange;
 }
 
 
 #iconePerfil{
-    border-radius: 5px;
+    border-radius: 100px;
     color: #990033;
     background-color: white;
     padding: 1%;
@@ -180,7 +180,7 @@ body{
 
 .botoesMeio:hover{
     background-color: rgb(227, 227, 227);
-    border-bottom: 5px solid orange;
+    border-bottom: 5px solid #660000;
 }
 
 .textBut{
