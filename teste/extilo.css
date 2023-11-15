@@ -1,0 +1,360 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Open+Sans:wght@700&display=swap');
+
+*{
+    font-family: 'Lobster', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+
+
+.grid {
+	display: grid;
+    background-color: #660000;
+    height: 10px;
+    z-index: 0;
+}
+
+.grid-template-columns-1 {
+	grid-template-columns: minmax(10%, 1fr) 1fr 1fr;
+    padding: 20px;
+    height: 15vh;
+    z-index: 0;
+}
+
+
+
+#txtbusca{
+    padding: 5px 4px 0 14px;
+    flex: 1;
+    display: flex;
+    background-color: #FFCECE;
+    margin: auto;
+    margin-top: 20px ;
+    height: 5vh;
+    width: 40vw;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    padding-left: 10px;
+    z-index: 0;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#btnbusca{
+    margin-top: -10px;
+    padding-left: 70px;
+    z-index: 0;
+}
+
+#titulo_logo{
+    color: white;
+    text-shadow:
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+    font-family: 'Lobster', sans-serif;
+    margin-top: 10px;
+    padding-left: 65px;
+    z-index: 0;
+}
+
+.search-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+
+#icone_busca{
+    flex: 0 0 auto;
+    padding-right: 13px;
+    z-index: 1;
+}
+button{
+    background-color: transparent;
+    border: none;
+}
+.fa-magnifying-glass{
+    position: absolute;
+      top: 75px;
+      right: 31%;
+      transform: translateY(-50%);
+      color: #660000;
+      font-size: x-large;
+}
+
+.fa-cart-shopping{
+    position: absolute;
+    color: white;
+    top: 63px;
+    right: 25%;
+    font-size: xx-large;
+}
+
+.fa-heart{
+    position: absolute;
+    color: white;
+    top: 63px;
+    right: 20%;
+    font-size: xx-large;
+}
+
+.fa-gear{
+    position: absolute;
+    color: white;
+    top: 63px;
+    font-size: xx-large;
+    right: 15%;
+}
+
+.foto_de_perfil{
+    position: absolute;
+    top: 40px;
+    right: 5%;
+}
+
+main{
+    height: 565px;
+    background-color: #ffdbc7;
+    z-index: 0;
+    display: flex;
+    align-items: stretch; 
+    flex-direction: column;
+}
+
+.promocao_de_ofertas {
+    background-color: #d9d9d9;
+    width: 1230px;
+    height: 261px;
+    z-index: 1;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+section.camisa01{
+    transform: rotate(15deg);
+}
+#oferta_promocional{
+    position: relative;
+    font-size: 50px;
+    margin: 20px;
+    margin-left: 40px;
+    top: 45px;
+    color: #990033;
+    font-family: 'Lobster', sans-serif;
+    font-weight: bold;
+    
+}
+
+
+#promocoes{
+    background-color: #990033;
+    width: 145px;
+    height: 214px;
+    transform: rotate(15deg);
+    margin-left: 400px;
+    margin-top: -153px;
+}
+
+#camisa01{
+    transform: rotate(-6.5deg);
+    margin-left: -10px;
+    margin-top: -8px;
+}
+
+#promo{
+    background-color: #990033;
+    width: 150px;
+    height: 240px;
+    float: left;
+    margin-left: 630px;
+    margin-top: -225px;
+    margin-bottom: 50px;
+   
+}
+
+#camisa_central{
+    width: 159px;
+    height: 249px;
+    transform: rotate(-1.1deg);
+    margin-left: -3.9px;
+}
+
+#promoc{
+    position: relative;
+    background-color: #990033;
+    width: 145px;
+    height: 214px;
+    margin-left: 850px;
+    margin-top: -215px;
+    transform: rotate(-15deg);
+    
+}
+
+#camisa_direita{
+    transform: rotate(11.5deg);
+    margin-left: -25px;
+    margin-top: -13px;
+}
+
+#linha_separacao{
+    position: relative;
+    width: 220px;
+    margin-left: 220px;
+    top: -35px;
+    transform: rotate(90deg);
+    color: black;
+    border: 0.1px solid black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    z-index: 0;
+  }
+  .Oversized{
+  margin: auto;
+  border-radius: 100%;
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+  background-color: #990033;
+  z-index: 0;
+  }
+.Estampas{
+    display: grid;
+    align-items: center;
+  border-radius: 100%;
+  overflow: hidden;
+  height: 200px;
+  width: 200px;
+  background-color: #990033;
+  margin: auto;
+}
+
+.Moletom{
+    border-radius: 100%;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    background-color: #990033;
+    margin: auto;
+}
+
+.Outros{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    background-color: #990033;
+    margin: auto;
+}
+
+
+.item {
+    
+    padding: 20px;
+    text-align: center;
+    z-index: 0;
+}
+.foto_estampas{
+    margin: 10px;
+}
+
+.itens_variados{
+    width: -40px;
+    height: 23vh;
+}
+
+.caixa_titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    z-index: 10;
+    top: 22%;
+    left: 12.5%;
+    transform: translate(-50%, -50%);
+    background-color: #d9d9d9;
+    height: 5vh;
+    width: 180px;
+    z-index: 2;
+}
+
+.titulo_estampa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    z-index: 10;
+    top: 22%;
+    left: 12.5%;
+    transform: translate(-50%, -50%);
+    background-color: #d9d9d9;
+    height: 5vh;
+    width: 180px;
+    z-index: 2;
+}
+
+.titulo_moletom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    z-index: 10;
+    top: 22%;
+    left: 12.5%;
+    transform: translate(-50%, -50%);
+    background-color: #d9d9d9;
+    height: 5vh;
+    width: 180px;
+    z-index: 2;
+}
+
+.titulo_outros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    z-index: 10;
+    top: 22%;
+    left: 12.5%;
+    transform: translate(-50%, -50%);
+    background-color: #d9d9d9;
+    height: 5vh;
+    width: 180px;
+    z-index: 2;
+}
+
+footer{
+    height: 25vh;
+    background-image: linear-gradient(to bottom, #5F021F,#990033 );
+}
