@@ -2,6 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bebas+Neue&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Open+Sans:wght@700&display=swap');
+
+
+
+
+
+
 
 * {
     box-sizing: border-box;
@@ -10,104 +17,117 @@
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    padding: 0;
+    overflow-y: hidden;
 }
 
-.navbar{
+.grid {
+	display: grid;
     background-color: #660000;
+    
+    z-index: 0;
+}
+
+
+.grid-template-columns-1 {
+	grid-template-columns: minmax(10%, 1fr) 1fr 1fr;
+    padding: 20px;
+    height: 180px;
+    z-index: 0;
+}
+
+
+
+#txtbusca{
+    padding: 5px 4px 0 14px;
+    flex: 1;
     display: flex;
-    height: 105px;
-    flex-flow: row wrap;
+    background-color: #FFCECE;
+    margin: auto;
+    margin-top: 70px ;
+    height: 5vh;
+    width: 40vw;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    padding-left: 10px;
+    z-index: 0;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
-.logo{
-    /* border: thin solid black; */
-    flex: 10%;
-    background: url(img/ICONE\ EMBER.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 69px;
-    margin-left: 5%;
+#btnbusca{
+    margin-top: 5px;
+    padding-left: 60px;
+    z-index: 0;
+}
+
+#titulo_logo{
+    color: white;
+    text-shadow:
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+    font-family: 'Lobster', sans-serif;
     margin-top: 2px;
+    padding-left: 65px;
+    z-index: 0;
 }
 
-#nomeLogo{
-    color: white;
-    margin-left: 40%;
-    margin-top: 1%;
-    font-size: 35px;
-    font-weight: 100;
-    font-family: 'Lobster';
+.search-container {
+    display: flex;
+    justify-content: flex-end;
     padding: 10px;
-}
+  }
 
-.pesquisa{
-    margin-left: 10%;
-    flex: 40%;
-    /* border: thin solid black; */
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
+#icone_busca{
+    flex: 0 0 auto;
+    padding-right: 13px;
+    z-index: 1;
 }
-
-.searchBar{
+button{
+    background-color: transparent;
     border: none;
-    border-radius: 8px;
-    width: 80%;
-    padding: 7px;
+}
+.fa-magnifying-glass{
+    position: absolute;
+      top: 125px;
+      right: 31%;
+      transform: translateY(-50%);
+      color: #660000;
+      font-size: x-large;
 }
 
-#searchButton{
-    border-radius: 8px;
-    padding: 7px;
-    width: 10%;
-    background-color: white;
-    border: none;
-    
-}
-
-
-.menu{
-    flex: 30%;
-    /* border: thin solid black; */
-    text-align: right;
-    margin-right: 5%;
-    padding: 1%;
-    font-size: 17px;
-    
-}
-.menu a{
-    align-items: center;
-    justify-content: center;
+.fa-cart-shopping{
+    position: absolute;
     color: white;
-    padding: 7px;
-    text-decoration: none;
-    text-align: center;
+    top: 110px;
+    right: 25%;
+    font-size: xx-large;
 }
 
-.menu a:hover{
-    color: orange;
-    border-bottom: thin solid orange;
+.fa-heart{
+    position: absolute;
+    color: white;
+    top: 110px;
+    right: 20%;
+    font-size: xx-large;
 }
 
-
-#iconePerfil{
-    border-radius: 100px;
-    color: #990033;
-    background-color: white;
-    padding: 1%;
-    padding-right: 30px;
-    padding-left: 30px;
-    margin-left:4%;
-
+.fa-gear{
+    position: absolute;
+    color: white;
+    top: 110px;
+    font-size: xx-large;
+    right: 15%;
 }
 
-#iconePerfil:hover{
-    background-color: rgb(215, 215, 215);
-    color: black;
-    border-bottom: thin solid rgb(255, 255, 255);
+.foto_de_perfil{
+    position: absolute;
+    top: 85px;
+    right: 5%;
 }
 
 .secaoMeio{
