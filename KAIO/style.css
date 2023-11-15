@@ -21,11 +21,21 @@ header{
 .menu{
     display: flex;
     justify-content: space-between;
+    color: white
 }
 
+.mini-menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    size: 15rem;
+    color: white
+}
+
+
 #iconeEmber{
-    width: 3%;
-    height: 3%;
+    width: 65%;
+    height: 65%;
 }
 
 .fotosCamisa{
