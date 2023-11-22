@@ -19,36 +19,40 @@ main {
 .container {
     background-color: #FFDBC7;
     width: 60rem;
-    height: 30rem;
+    height: 36rem;
     border-radius: 50px;
-    margin-top: 5%;
+    margin-top: 2%;
+    display: flex;
 }
 #criar {
     margin-top: 3%;
     font-size: 26px;
     color: #8C001A;
     font-weight: 400;
-    margin-left: 6%;
+    margin-left: 12%;
 }
 
 .info {
     display: flex;
     align-items: center;
     background-color: #8C001A;
-    width: 20rem;
+    width: 22rem;
     height: 3rem;
     border-radius: 10px;
     margin-left: 6%;
-    padding-left: 1%;
+    padding-left: 3%;
     color: white;
     font-weight: 400;
 }
 .infoconta {
-    padding-left: 1%;
-
+    margin-left: 2%;
+    margin-top: 2%;
     width: 22rem;
+    
 }
 .infoconta li {
+    margin-top: 2%;
+    margin-left: 6%;
     flex-direction: column;
     display: flex;
 }
@@ -62,5 +66,92 @@ main {
 .infoconta input {
     margin-top: 1%;
     margin-left: 5%
+}
 
+#login {
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.infologin {
+    margin-left: 2%;
+    margin-top: 5%;
+    width: 22rem;
+}
+
+.infologin label {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 3%;
+    margin-left: 5%;
+
+}
+
+#coluna {
+    display: flex;
+    margin-top: 7%;
+}
+
+#senha {
+    margin-left: 10%;
+}
+
+#confirm {
+    margin-left: 3%;
+}
+
+#senhatitle {
+    margin-left: 1%;
+}
+
+#confirmtitle {
+    margin-left: 1%;
+}
+
+#pessoal {
+    margin-top: 2rem;
+    margin-left: 18%;
+    padding-top: 2%;
+}
+
+#pagamento {
+    margin-top: 2rem;
+}
+
+#infopagamento {
+    display: flex;
+}
+#bancariabox {
+    width: 12rem;
+}
+
+#numerobox{
+    width: 8rem;
+}
+
+#num {
+    margin-left: 3%;
+    width: 12rem;
+}
+
+#button {
+    margin-left: 60%;
+    width: 10rem;
+    height: 3rem;
+    background-color: #13a9ff;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10%;
+    font-weight: 800;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.estilizacaoinput {
+    border-radius: 10px;
+    border: solid 1px grey;
+    text-decoration: none;
+    background-color: transparent;
+    padding-left: 6px;
 }

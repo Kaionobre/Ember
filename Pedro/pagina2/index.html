@@ -9,13 +9,72 @@
 <body>
     <main>
         <div class="container">
-            <h1 id="criar">Criar uma conta</h1>
-            <div class="infoconta">
-                <p class="info">Informações da conta</p>
+            <div>
+                <h1 id="criar">Criar uma conta</h1>
+                <div class="infoconta">
+                    <p class="info">Informações da conta</p>
+                    <li>
+                        <label class="title">*Nome</label>
+                        <input type="text" name="subject" placeholder="" class="estilizacaoinput"/>
+                    </li>
+                    <li>
+                        <label class="title">*Sobrenome</label>
+                        <input type="text" name="subject" placeholder="" class="estilizacaoinput"/>
+                    </li>
+                    <li>
+                        <label class="title">*Email</label>
+                        <input type="text" name="subject" placeholder="" class="estilizacaoinput"/>
+                    </li>
+                    <li>
+                        <label class="title">*Telefone</label>
+                        <input type="text" name="subject" placeholder="" class="estilizacaoinput"/>
+                    </li>
+                </div>
+                <div class="infologin">
+                    <p class="info" id="login">Informações de login</p>
+                    <div id="coluna">
+                        <li id="senha">
+                            <label class="title" id="senhatitle">*Senha</label>
+                            <input type="text" name="subject" placeholder="" class="estilizacaoinput"/>
+                        </li>
+                        <li id="confirm">
+                            <label class="title" id="confirmtitle">*Confirmar Senha</label>
+                            <input type="text" name="subject" placeholder="" class="estilizacaoinput"/>
+                        </li>
+                    </div>
+                </div>
+            </div>
+            <div class="infoconta" id="pessoal">
+                <p class="info">Informações Pessoais</p>
                 <li>
-                    <label class="title">*Nome</label>
-                    <input type="text" name="subject" placeholder="Nome Completo" />
+                    <label class="title">*CPF</label>
+                    <input type="text" name="subject" placeholder="" class="estilizacaoinput"/>
+                </li>   
+                <li>
+                    <label class="title">*Data de Nascimento</label>
+                    <input type="date" id="start" name="trip-start" value="2018-07-22" min="1900-01-01" max="2099-12-31" class="estilizacaoinput"/>
+
                 </li>
+                <div class="infoconta" id="pagamento">
+                    <p class="info">Informações de Pagamento</p>
+                    <div id="infopagamento">
+                        <li>
+                            <label class="title" id="conta">Conta Bancária</label>
+                            <input type="text" name="subject" placeholder="" id="bancariabox" class="estilizacaoinput"/>
+                        </li>   
+                        <li>
+                            <label class="title">Agência</label>
+                            <input type="text" name="subject" placeholder="" id="numerobox" class="estilizacaoinput"/>
+                        </li>
+                    </div>
+                    <div>
+                        <li>
+                            <label class="title" id="num">Número</label>    
+                            <input type="text" name="subject" placeholder="" id="num" class="estilizacaoinput"/>
+                        </li>
+                    </div>
+                    <button id="button">Finalizar Cadastro</button>
+                </div>
             </div>
         </div>
     </main>
