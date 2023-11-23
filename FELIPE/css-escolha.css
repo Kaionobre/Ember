@@ -181,7 +181,7 @@ button{
 .busca{
    
     display: flex;
-    background-color: #bebebe;
+    background-color: rgb(255, 215, 224);
     width: 100%;
     height: 60px;
     justify-content: center;
@@ -194,5 +194,15 @@ button{
 }
 
 .busca:hover{
-    border-bottom: 3px solid orange;
+    background-color: rgb(227, 227, 227);
+    border-bottom: 5px solid #660000;
+}
+
+a{
+    color: #660000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
 }
