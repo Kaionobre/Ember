@@ -16,13 +16,6 @@ body {
     overflow-y: hidden;
 }
 
-.grid {
-	display: grid;
-    background-color: #660000;
-    
-    z-index: 0;
-}
-
 .grid-template-columns-1 {
 	grid-template-columns: minmax(10%, 1fr) 1fr 1fr;
     padding: 20px;
@@ -229,7 +222,6 @@ section.camisa01{
 
 .grid{
     display: grid;
-    
 }
 
 .grade{
