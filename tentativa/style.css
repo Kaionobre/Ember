@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Open+Sans:wght@700&display=swap');
+
+*{
+    font-family: 'Lobster', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+.titulo{
+    width: 386px;
+    margin-left: 20px;
+    height: 100px;
+    padding-bottom: 15px
+}
+
+
+
+
+h1 {
+    font-size: 36px;
+    font-size: x-large;
+    box-shadow: 2px 0px 0px #FF9000;
+    width: 98%;
+    margin-bottom: 20px;
+
+}
+
+.anuncio{
+    width: 640px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1::after {
+    content: "";
+    display: block;
+    height: 2px; 
+    background-color: #FF9000;
+    width: 98%; 
+    margin-top: 5px;
+}
+
+
+
+.grid {
+	display: grid;
+    background-color: #660000;
+    height: 10px;
+    z-index: 0;
+}
+
+.grid-template-columns-1 {
+	grid-template-columns: minmax(10%, 1fr) 1fr 1fr;
+    padding: 20px;
+    height: 5vh;
+    z-index: 0;
+}
+
+
+
+#txtbusca{
+    padding: 5px 4px 0 14px;
+    flex: 1;
+    display: flex;
+    background-color: #FFCECE;
+    margin: auto;
+    margin-top: 20px ;
+    height: 5vh;
+    width: 40vw;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    padding-left: 10px;
+    z-index: 0;
+    margin-top: -12px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#btnbusca{
+    margin-top: -10px;
+    padding-left: 70px;
+    z-index: 0;
+    width: 50px;
+}
+
+#titulo_logo{
+    color: white;
+    text-shadow:
+    2px 2px 0 #000,
+    -2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000;
+    font-family: 'Lobster', sans-serif;
+    margin-top: -2px;
+    padding-left: 75px;
+    z-index: 0;
+}
+
+.search-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+  }
+
+#icone_busca{
+    flex: 0 0 auto;
+    padding-right: 13px;
+    z-index: 1;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+      top: 75px;
+      right: 31%;
+      transform: translateY(-50%);
+      color: #660000;
+      font-size: x-large;
+}
+
+.fa-cart-shopping{
+    position: absolute;
+    color: white;
+    top: 63px;
+    right: 25%;
+    font-size: xx-large;
+}
+
+.fa-heart{
+    position: absolute;
+    color: white;
+    top: 63px;
+    right: 20%;
+    font-size: xx-large;
+}
+
+.fa-gear{
+    position: absolute;
+    color: white;
+    top: 63px;
+    font-size: xx-large;
+    right: 15%;
+}
+
+.foto_de_perfil{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 60px;
+    margin-top: -25px;
+
+}
+
+.fa-magnifying-glass,.fa-cart-shopping,
+.fa-heart,.fa-gear{
+    margin-top: -35px;
+}
+
+main{
+    background-color: #FFDBC7;
+    width: 100%;
+    height: 100vh;
+}
+
+#compartilhar{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+.fa-share-nodes{
+    color: #FFA900;
+    margin-right: 40px;
+    margin-top: 25px;
+    font-size: 45px;
+}
+.conteudo {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+#angulos{
+	margin: left;
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -50px;
+    width: 200px;
+}
+
+#frontal,#perfil,#costas{
+    width: 180px;
+    border: 1px solid #ccc;
+    background-color: #d9d9d9;
+    margin: left;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+#foto_principal{
+    background-size: 655px;
+    background-color: #d9d9d9;
+    display: flex;
+    width: 655px;
+    height: 630px;
+    border: 1px solid #ccc;
+    margin-left: 25px;
+    margin-top: -50px;
+}
+
+#foto_oficial{
+    margin-top: -95px;
+    margin-left: -15px;
+}
+
+h2{
+    font-size: 200%;
+    box-shadow: 2px 0px 0px #FF9000;
+    
+    width: 13%;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    height: 2px; 
+    background-color: #FF9000;
+    width: 98%; 
+    margin-top: 15px;
+}
+
+.fa-star{
+    color: #FF9000;
+    font-size: 30px;
+}
+
+
+
+
+#emote_anuncio{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 42%;
+    right: 5%;
+    color: #FF9000;
+    margin-left: -35px;
+}
+
+#emote_anuncio::after{
+    content: "";
+    display: block;
+    height: 1px; 
+    background-color: #FF9000;
+    width: 150%; 
+    margin-top: 15px;
+    margin-left: -3px;
+    margin-top: 19px;
+}
+
+#preco{
+    margin-top: -31%;
+    margin-left: 35%;
+}
+
+
+
+#preco {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.preco-parcela {
+    display: block; 
+}
+
+.parcelamento {
+    display: block; 
+}
+
+.preco-parcela::before,
+.parcelamento::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 2px; 
+    background-color: #FF9000;
+    left: -10px; 
+}
+
+h3 {
+    position: relative;
+    font-size: 150%;
+}
+
+.preco-parcela, .parcelamento {
+    display: block;
+    
+}
+
+.preco-parcela::before,
+.parcelamento::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 50%;
+    width: 2px; 
+    background-color: #FF9000;
+    left: -10px; 
+}
+
+
+
+.parcelamento::after {
+    content: "";
+    display: block;
+    height: 2px; 
+    width: 183%;
+    background-color: #FF9000;
+    margin-top: 5px; 
+    left: -10px; 
+}
+
+.cores{
+    display: flex;
+    position: absolute;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.opcoes{
+    
+    margin-top: 45%;
+    margin-left: 5%;
+    width: 100px;
+    height: 100px;
+}
+
+h4{
+    font-size: 30px;
+}
+
+#preto,#branco,#azul{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+#preto{
+    background-color: #000;
+}
+
+#branco{
+    background-color: #fff;
+}
+
+#azul{
+    background-color: #174377;
+}
+
+#comprar{
+    border-radius: 10px;
+    border: none;
+    text-decoration: none;
+    margin-left: 15px;
+    width: 155px;
+    height: 52px;
+    background-color: #990033;
+    color: white;
+    font-size: 25px;
+}
+
+#tamanhos{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    margin-top: 67%;
+    margin-left: -10%;
+}
+
+#p,#pp,#m,#g,#gg{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+
+#botoes{
+    display: flex;
+    
+}
