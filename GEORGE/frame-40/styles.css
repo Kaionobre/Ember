@@ -201,8 +201,10 @@ body {
 #nome2-1{
     background-color: #990033;
     color: white;
-    padding: 5% 33% 5%;
+    padding: 4% 25% 4% 25%;
     margin-top: -50px;
+    margin-left: 19px;
+    width: 158px;
 }
 
 .nome3{
